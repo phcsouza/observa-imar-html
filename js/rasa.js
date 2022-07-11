@@ -10,7 +10,7 @@
           window.WebChat.default(
               {
                   customData: { language: "pt" },
-                  socketUrl: "rasa-server-phcsouza.cloud.okteto.net",
+                  socketUrl: "http://localhost:5005/",
                   // add other props here
                   initPayload: "/boas_vindas",
                   title: 'Chatbot Observa IMar',
